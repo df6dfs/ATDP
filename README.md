@@ -15,6 +15,25 @@ This repository provides the official source code for our proposed few-shot rela
 - **Class-Adaptive Threshold Selection**: Dynamic confidence boundaries to effectively mitigate the false-positive rejection challenge in open/NA categories.
 
 ---
+## 📂 Repository Structure
+.
+├── dataset/                    # Preprocessed K-shot benchmark splits
+│   ├── semeval/
+│   │   └── k-shot/             # Subfolders: 1-1, 5-1, 16-1, etc.
+│   ├── tacred/
+│   └── tacrev/
+├── models/
+│   ├── roberta-large/          # Hugging Face backbone weights and tokenizer configs
+│   └── ...
+├── lit_models/                 # PyTorch Lightning modules (BertLitModel, BaseLitModel)
+├── data/                       # Dataset processing and pipeline loading
+├── run_semeval.sh              # Execution script for SemEval-2010 Task 8
+├── run_tacred.sh               # Execution script for TACRED
+├── run_tacrev.sh               # Execution script for TACREV
+├── main.py                     # Main entry script for training & evaluation
+├── requirements.txt            # Python environment dependencies
+└── README.md
+---
 
 ## 🛠️ Environment Setup
 
