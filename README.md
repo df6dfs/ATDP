@@ -30,9 +30,36 @@ cd ATDP
 conda create -n mvre python=3.8 -y
 conda activate mvre
 
-# 3. Install requirements (adjust CUDA version to match your hardware)
+# 3. Install other dependencies
 pip install -r requirements.txt
 
+# How to run
 
-# 4. Install other dependencies
-pip install -r requirements.txt
+## Initialize the answer words
+
+Use the comand below to get the answer words to use in the training.
+
+```shell
+python get_label_word.py --model_name_or_path bert-large-uncased  --dataset_name semeval
+```
+
+The `{answer_words}.pt`will be saved in the dataset, you need to assign the `model_name_or_path` and `dataset_name` in the `get_label_word.py`.
+
+## Split few-shot dataset
+
+Download the data first, and put it to `dataset` folder. Run the comand below, and get the few shot dataset.
+
+```shell
+python generate_k_shot.py --data_dir ./dataset --k 1 --dataset semeval
+cd dataset
+cd semeval
+cp rel2id.json val.txt test.txt ./k-shot/1-1
+```
+You need to modify the `k` and `dataset` to assign k-shot and dataset. Here we default seed as 1,2,3,4,5 to split each k-shot, you can revise it in the `generate_k_shot.py`
+
+## Run
+```bash
+bash scripts/run_semeval.sh 
+bash scripts/run_tacred.sh
+bash scripts/run_tacrev.sh
+```
