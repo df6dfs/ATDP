@@ -3,7 +3,7 @@
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![PyTorch 1.12+](https://img.shields.io/badge/PyTorch-1.12%2B-red.svg)](https://pytorch.org/)
 
-Official PyTorch implementation of the paper **"[ATDP: Adaptive Threshold Decoupled Prompting for Few-Shot Relation Extraction]"** (Accepted by / Submitted to [Conference/Journal Name]).
+Official PyTorch implementation of the paper **"ATDP: Adaptive Threshold Decoupled Prompting for Few-Shot Relation Extraction"** (Accepted by / Submitted to [Conference/Journal Name]).
 
 ---
 
