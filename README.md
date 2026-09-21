@@ -32,9 +32,9 @@ conda activate mvre
 # 3. Install other dependencies
 pip install -r requirements.txt
 
-# How to run
+## How to run
 
-## Initialize the answer words
+# Initialize the answer words
 
 Use the comand below to get the answer words to use in the training.
 
