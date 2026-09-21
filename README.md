@@ -28,9 +28,10 @@ This repository provides the official source code for our proposed few-shot rela
 │   └── ...
 ├── lit_models/                 # PyTorch Lightning modules (BertLitModel, BaseLitModel)
 ├── data/                       # Dataset processing and pipeline loading
-├── run_semeval.sh              # Execution script for SemEval-2010 Task 8
-├── run_tacred.sh               # Execution script for TACRED
-├── run_tacrev.sh               # Execution script for TACREV
+├── scripts/
+│   ├── run_semeval.sh              # Execution script for SemEval-2010 Task 8
+│   ├── run_tacred.sh               # Execution script for TACRED
+│   ├── run_tacrev.sh               # Execution script for TACREV
 ├── main.py                     # Main entry script for training & evaluation
 ├── requirements.txt            # Python environment dependencies
 └── README.md
