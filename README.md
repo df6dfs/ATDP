@@ -43,7 +43,7 @@ We recommend using Conda to manage your local environment.
 
 ```bash
 # 1. Clone this repository
-git clone [https://github.com/](https://github.com/)[Your-Username]/[Your-Repo-Name].git
+git clone https://github.com/df6dfs/ATDP.git
 cd ATDP
 
 # 2. Create and activate conda environment
