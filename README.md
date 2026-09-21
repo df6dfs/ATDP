@@ -16,6 +16,7 @@ This repository provides the official source code for our proposed few-shot rela
 
 ---
 ## 📂 Repository Structure
+```text
 .
 ├── dataset/                    # Preprocessed K-shot benchmark splits
 │   ├── semeval/
@@ -33,6 +34,7 @@ This repository provides the official source code for our proposed few-shot rela
 ├── main.py                     # Main entry script for training & evaluation
 ├── requirements.txt            # Python environment dependencies
 └── README.md
+```
 ---
 
 ## 🛠️ Environment Setup
