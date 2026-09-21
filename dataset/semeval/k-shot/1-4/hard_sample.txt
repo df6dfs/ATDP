@@ -1,0 +1,3 @@
+{"token": ["The", "inventory", "includes", "a", "crust", ",", "a", "planet", ",", "and", "other", "items", "."], "h": {"name": "crust", "pos": [4, 5]}, "t": {"name": "planet", "pos": [7, 8]}, "relation": "Other"}
+{"token": ["While", "the", "compiler", "was", "on", "the", "table", ",", "the", "programmer", "was", "in", "the", "box", "."], "h": {"name": "compiler", "pos": [2, 3]}, "t": {"name": "programmer", "pos": [9, 10]}, "relation": "Other"}
+{"token": ["The", "inventory", "includes", "a", "compiler", ",", "a", "programmer", ",", "and", "other", "items", "."], "h": {"name": "compiler", "pos": [4, 5]}, "t": {"name": "programmer", "pos": [7, 8]}, "relation": "Other"}

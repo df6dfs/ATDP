@@ -1,0 +1,13 @@
+{"token": ["The", "inventory", "includes", "a", "pulsar", ",", "a", "remnant", ",", "and", "other", "items", "."], "h": {"name": "pulsar", "pos": [4, 5]}, "t": {"name": "remnant", "pos": [7, 8]}, "relation": "Other"}
+{"token": ["The", "book", "was", "on", "the", "table", ",", "and", "the", "woman", "was", "in", "the", "kitchen", "."], "h": {"name": "book", "pos": [1, 2]}, "t": {"name": "woman", "pos": [9, 10]}, "relation": "Other"}
+{"token": ["Unlike", "the", "book", ",", "the", "woman", "is", "very", "expensive", "."], "h": {"name": "book", "pos": [2, 3]}, "t": {"name": "woman", "pos": [5, 6]}, "relation": "Other"}
+{"token": ["The", "inventory", "includes", "a", "book", ",", "a", "woman", ",", "and", "other", "items", "."], "h": {"name": "book", "pos": [4, 5]}, "t": {"name": "woman", "pos": [7, 8]}, "relation": "Other"}
+{"token": ["The", "engineer", "looked", "at", "the", "strawberry", "and", "then", "walked", "towards", "the", "syrup", "."], "h": {"name": "strawberry", "pos": [5, 6]}, "t": {"name": "syrup", "pos": [11, 12]}, "relation": "Other"}
+{"token": ["The", "inventory", "includes", "a", "strawberry", ",", "a", "syrup", ",", "and", "other", "items", "."], "h": {"name": "strawberry", "pos": [4, 5]}, "t": {"name": "syrup", "pos": [7, 8]}, "relation": "Other"}
+{"token": ["Unlike", "the", "strawberry", ",", "the", "syrup", "is", "very", "expensive", "."], "h": {"name": "strawberry", "pos": [2, 3]}, "t": {"name": "syrup", "pos": [5, 6]}, "relation": "Other"}
+{"token": ["While", "the", "surgeon", "was", "on", "the", "table", ",", "the", "group", "was", "in", "the", "box", "."], "h": {"name": "surgeon", "pos": [2, 3]}, "t": {"name": "group", "pos": [9, 10]}, "relation": "Other"}
+{"token": ["Unlike", "the", "surgeon", ",", "the", "group", "is", "very", "expensive", "."], "h": {"name": "surgeon", "pos": [2, 3]}, "t": {"name": "group", "pos": [5, 6]}, "relation": "Other"}
+{"token": ["The", "inventory", "includes", "a", "surgeon", ",", "a", "group", ",", "and", "other", "items", "."], "h": {"name": "surgeon", "pos": [4, 5]}, "t": {"name": "group", "pos": [7, 8]}, "relation": "Other"}
+{"token": ["While", "the", "themes", "was", "on", "the", "table", ",", "the", "novel", "was", "in", "the", "box", "."], "h": {"name": "themes", "pos": [2, 3]}, "t": {"name": "novel", "pos": [9, 10]}, "relation": "Other"}
+{"token": ["Unlike", "the", "themes", ",", "the", "novel", "is", "very", "expensive", "."], "h": {"name": "themes", "pos": [2, 3]}, "t": {"name": "novel", "pos": [5, 6]}, "relation": "Other"}
+{"token": ["The", "inventory", "includes", "a", "themes", ",", "a", "novel", ",", "and", "other", "items", "."], "h": {"name": "themes", "pos": [4, 5]}, "t": {"name": "novel", "pos": [7, 8]}, "relation": "Other"}
