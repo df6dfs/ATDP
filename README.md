@@ -31,7 +31,8 @@ conda activate mvre
 
 # 3. Install other dependencies
 pip install -r requirements.txt
-
+```
+---
 ## How to run
 
 # Initialize the answer words
