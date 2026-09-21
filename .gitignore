@@ -13,6 +13,7 @@ Pretrain/*.pth
 *.ckpt
 
 # 忽略数据集、缓存与运行生成目录
+dataset/
 data/FashionMNIST
 cache/
 output/
