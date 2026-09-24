@@ -5,7 +5,11 @@ __pycache__/
 .ipynb_checkpoints/
 
 # 忽略大型模型权重与微调 Checkpoint（严禁直接传 GitHub）
-models/
+models/*
+!models/__init__.py
+!models/roberta/
+!models/bert/
+
 Pretrain/*.pth
 *.pt
 *.bin
@@ -63,3 +67,5 @@ process_backup.txt
 requirements_for_qwen.txt
 generate_knowledge_prompt.py
 filtered_augment_data.txt
+ComfyUI/
+Vision/
