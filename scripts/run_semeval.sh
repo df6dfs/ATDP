@@ -15,7 +15,7 @@ KSHOT_PREFIXES=("1" "5" "16")
 for prefix in "${KSHOT_PREFIXES[@]}"; do
   # Dataset-specific parameter matching for SemEval
   if [[ $prefix == "1" ]]; then
-    reject_value="2.0"
+    reject_value="1.0"
     soft_value="0.4"
   elif [[ $prefix == "5" ]]; then
     reject_value="1.0"
